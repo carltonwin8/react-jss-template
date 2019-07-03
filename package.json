@@ -4,9 +4,15 @@
   "description": "Basic template with jss and react.",
   "main": "index.js",
   "scripts": {
-    "generate": "node scripts/generator.js"
+    "generate": "node scripts/generator.js",
+    "serve": "webpack-dev-server",
+    "serve:watch": "npm run serve --watch-content-base"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "jss",
+    "template"
+  ],
   "author": "Carlton Joseph",
   "license": "MIT",
   "devDependencies": {
@@ -15,7 +21,10 @@
     "chokidar": "^3.0.1",
     "jss": "^10.0.0-alpha.22",
     "jss-preset-default": "^10.0.0-alpha.22",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
     "react": "^16.8.6",
