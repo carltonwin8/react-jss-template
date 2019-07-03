@@ -1,0 +1,24 @@
+{
+  "name": "react-jss-template",
+  "version": "0.0.1",
+  "description": "Basic template with jss and react.",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node scripts/generator.js"
+  },
+  "keywords": [],
+  "author": "Carlton Joseph",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chokidar": "^3.0.1",
+    "jss": "^10.0.0-alpha.22",
+    "jss-preset-default": "^10.0.0-alpha.22",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
