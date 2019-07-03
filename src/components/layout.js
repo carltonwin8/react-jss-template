@@ -11,6 +11,7 @@ module.exports = props => {
         <title>React Template</title>
       </head>
       <body>{props.children}</body>
+      <script src="main.js"></script>
     </html>
   );
 };
